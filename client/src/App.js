@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import CameraComponent from './Components/CameraComponent';
 
 function App() {
   const [data, setData] = useState([{}])
@@ -24,7 +23,6 @@ function App() {
             <p key={i}>{member}</p>
         ))
       )}
-      <CameraComponent />
     </div>
   )
 }
